@@ -1,7 +1,7 @@
 Modelo de Dominio
 =================
 
-	El domino del problema se trata de una aplicación web que interactua con el usuario así
+El domino del problema se trata de una aplicación web que interactua con el usuario así
 como lo hacen las redes sociales como por ejemplo Facebook, pero en esta oportunidad 
 ese tipo de interacción tendrá como tema principal, tema publicación, etc a la 
 seguridad de los habitantes de un determinado barrio o villa. A esta interacción se 
@@ -20,7 +20,6 @@ de las personas que lo están cuidando(de manera confiable).
 ## Modelo de clases resultante
 
 ### Comentario ###
-Descripción
 - [String]: [Nombre Atributo]
 - [Date]: 	[date]
 - [Usuario]:[usuario]
@@ -28,35 +27,32 @@ Descripción
 - [String]: [nivelDeAlerta]
 
 ### UbicacionGeografica ###
-Descripción
 - [String]: [ciudad]
 - [String]: [barrio]
 - [String]: [calle]
 - [String]: [latitud]
 - [String]: [longitud]
+
 ### Usuario ###
-Descripción
 - [String]: [nombre]
 - [String]: [password]
 - [byte[]]: [foto]
 - [String]: [email]
 - [String]: [telefono]
 - [String]: [celular]
-- [List<EstadoUsuario>]: [estados]
+- [List de EstadoUsuario]: [estados]
 - [List<Alerta>]: [alertas]
 - [List<Comentario>]: [comentariosResividos]
 - [List<Comentario>]: [comentariosEnviados]
 - [List<UbicacionGeografica>]: [comentariosEnviados]
 
 ### Alerta ###
-Descripción
 - [List<String>]: [recibidoresDeAlerta]
 - [Date]: 	[date]
 - [Usuario]:[usuario]
 - [UbicacionGeografica]: [ubicacionGeografica]
 
 ### EstadoUsuario ###
-Descripción
 - [String]: [nombre]
 - [bool]: [activado]
 
