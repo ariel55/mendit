@@ -15,4 +15,8 @@ Integrantes: 1
 
 ## Posibles historias de usuario para seguir agregando al proyecto a futuro
 
+- [Nombre historia o identificador] - [Descripción de la historia] [(peso de la historia - optativo, pero recomendado, puede ser en horas o puntos)]
+- [Nombre historia o identificador] - [Descripción de la historia] [(peso de la historia - optativo, pero recomendado, puede ser en horas o puntos)]
+- [Nombre historia o identificador] - [Descripción de la historia] [(peso de la historia - optativo, pero recomendado, puede ser en horas o puntos)]
+
 
