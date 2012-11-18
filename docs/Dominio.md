@@ -19,17 +19,39 @@ de las personas que lo están cuidando(de manera confiable).
 
 ## Modelo de clases resultante
 
+### Alerta ###
+- [Lista de String]: [organismosEstatalesResponzables]
+- [String]: [responzableActivado]
+- [Date]: 	[dateInicio]
+- [Date]: 	[dateFin]
+- [Usuario]:[usuario]
+- [UbicacionGeografica]:[ubicacionGeografica]
+- [Integer]: [nivel]
+
 ### Comentario ###
-- [String]: [Nombre Atributo]
+- [String]: [mensaje]
+- [Integer]: [puntuacion]
 - [Date]: 	[date]
 - [Usuario]:[usuario]
 - [Alerta]: [alerta]
-- [String]: [nivelDeAlerta]
+
+### EstadoUsuario ###
+- [String]: [nombre]
+- [bool]: [activado]
+
+### OrganismoEstatal ###
+- [String]: [nombre]
+- [Lista de String]: [alertasParaSolucionar]
+- [UbicacionGeografica]: [ubicacionGeografica]
 
 ### UbicacionGeografica ###
+- [String]: [pais]
 - [String]: [ciudad]
 - [String]: [barrio]
 - [String]: [calle]
+- [String]: [calleDesde]
+- [String]: [calleHasta]
+- [Interger]: [alturaCalle]
 - [String]: [latitud]
 - [String]: [longitud]
 
@@ -38,21 +60,14 @@ de las personas que lo están cuidando(de manera confiable).
 - [String]: [password]
 - [byte[]]: [foto]
 - [String]: [email]
-- [String]: [telefono]
+- [String]: [telefonoCasa]
+- [String]: [telefonoTrabajo]
 - [String]: [celular]
 - [Lista de EstadoUsuario]: [estados]
 - [Lista de Alerta]: [alertas]
-- [Lista de Comentario]: [comentariosResividos]
+- [Lista de Comentario]: [comentariosRecibidos]
 - [Lista de Comentario]: [comentariosEnviados]
-- [Lista de UbicacionGeografica]: [comentariosEnviados]
-
-### Alerta ###
-- [Lista de String]: [recibidoresDeAlerta]
-- [Date]: 	[date]
-- [Usuario]:[usuario]
-- [UbicacionGeografica]: [ubicacionGeografica]
-
-### EstadoUsuario ###
-- [String]: [nombre]
-- [bool]: [activado]
+- [Lista de Comentario]: [comentariosEiminados]
+- [UbicacionGeografica]: [ubicacionGeograficaCasa]
+- [bool]: [alertaActivada]
 

@@ -3,15 +3,21 @@ Historias de usuario
 Integrantes: 1
 
 ## Historias de usuario dentro del alcance
+En todas estas actividades de usuario se supone que el usuario esta registrado.
 
-- [Usuario identificado] - [Buscar localización geográfica, Buscar amigo, Recibir petición amigo, Subir un vídeo, Elegir amigos Protectores, 								Activar	Alerta]
-- [Buscar localización geográfica] - [Descripción de la historia]
-- [Buscar amigo] - [Agregar amigos]
-- [Agregar amigos] - [Ver contenidos del amigo, Dejar comentario al amigo]
-- [Recibir petición amigo] - [Aceptar petición amigo, Denegar petición amigo]
-- [Subir un vídeo] - [Activar el vídeo como destacado del día, Activar el vídeo como destacado de la semana]
-- [Elegir amigos Protectores] - [Elegir nivel de protección, Sugerir amigos protectores a otros amigos]
-- [Activar	Alerta] - [Activar en organización estatal, Activar en sitio web, solucionar Alerta]
+1) localizar geograficamente el lugar donde se produzco la denuncia del ataque. 
+2) Buscar y agregar amigos con el mismo tipo de atercado.
+3) Recibir peticiones de amistad, y aceptarlas o denegarlas.
+4) Subir un video del ataque denunciado.
+5) Elejir amigos protectores, son los estaran monitoreando constantemente las alertas de los amigos a proteger.
+6) Elejir el nivel de proteccion que un amigo puede brindar
+7) Sugerir amigos protectores a otros amigos
+8) Enviar y Recibir Activaciones de Alertas entre amigos.
+9) Activar un video como destado del dia o de la semana. A estos videos se los mostrara en primera plana grande apenas el usuario se registra.
+10) Ver el contenido de un amigo y dejar comentario destacable por varios usuarios.
+11) Activar alerta del ataque en organizmo estatal
+12) Activar alerta del ataque en sitios populares
+13) Solucion una alerta.
 
 ## Posibles historias de usuario para seguir agregando al proyecto a futuro
 
